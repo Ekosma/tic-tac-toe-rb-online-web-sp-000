@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -80,4 +80,5 @@ end
 
 def current_player(board)
   turn_count(board) % 2 == 0 ? "X" : "0"
+>>>>>>> 1180beb0e3e0e22f613e5e7092d4f3c8d6d8d943
 end
